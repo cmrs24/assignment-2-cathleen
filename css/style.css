@@ -47,11 +47,9 @@ Developer @GA in NYC
 
 body {
      color: #000;
+     font-family:'Open Sans', Helvetica, Arial, sans-serif;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
 }
 
 
@@ -80,5 +78,162 @@ footer {
 /*******************************************/
 
 
+.intro  {
+  padding: 10px 0px 350px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  border-style: solid;
+  text-align: center;
+}
+
+.benefits {
+  padding: 100px 0 100px;
+  background: #f0efef;
+  border-color: none;
+  border-width: 1px;
+  border-style: none;
+  text-align:center;
+}
 
 
+.quote  {
+  padding: 80px 0 80px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  border-style: solid;
+  color: #606161;
+}
+
+.signup  {
+  background-color: #f9e42e;
+  padding: 25px 0px 20px;
+  border-color: none;
+  border-width: none;
+  border-style: none;
+  text-align:center;
+  position:relative;
+}
+
+footer {
+  padding: 25px 10px 25px;
+  background: #606161;
+  border-color: none;
+  border-width: 1px;
+  border-style: none;
+  text-align:center;
+}
+
+
+h1 {
+  font: 'Open Sans';
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  margin-left: 60px;
+  margin-top: 0px;
+  text-align:left;
+  padding-bottom: 80px;
+}
+
+h2 {
+  font: 'Open Sans';
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+h3 {
+  font: 'open sans';
+  color: #033048;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 60px;
+  padding-bottom: 15px;
+}
+
+p {
+  font: 'open sans';
+  color: #606161;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 60px;
+  margin-right:20px;
+  line-height: 1.5;
+}
+
+ul {
+  font: 'open sans';
+  padding-top: 20px;
+  color: #606161;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 120px;
+  line-height: 2;
+  list-style-type: disc;
+}
+
+blockquote {
+  font-size: 25px;
+  font-weight: 300;
+  font-style: italic;
+  text-align:center;
+  color: white;
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
+.amanda {
+  font-size: 25px;
+  font-weight: 600;
+  text-align:center;
+  color: white;
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
+.cta2 {
+  font-size:12px;
+  font-weight: 800;
+  border-radius: 5px;
+  background-color: #033048;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+}
+
+.cta1 {
+  font-size:14px;
+  font-weight: 800;
+  border-radius: 5px;
+  background-color: #F9E42E;
+  border: none;
+  color: #606161;
+  padding: 10px 30px;
+  text-align: center; 
+}
+
+
+h4 {
+  font: 'Open Sans';
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+  text-align:center;
+  padding-bottom: 80px;
+}
+
+h5 {
+  font: 'Open Sans';
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  text-align:center;
+  padding-bottom: 80px;
+}
